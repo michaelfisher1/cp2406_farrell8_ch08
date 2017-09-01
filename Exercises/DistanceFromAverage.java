@@ -27,7 +27,7 @@ public class DistanceFromAverage {
             System.out.print("Average cannot be computer because no numbers were entered");
         else {
             average = total / x;
-            System.out.print("You entered " + x + " numbers and their average is " + average);
+            System.out.println("You entered " + x + " numbers and their average is " + average);
             for (y = 0; y < x; ++y)
                 System.out.println(numbers[y] + " is " + (numbers[y] - average) + " away from the average.");
         }
